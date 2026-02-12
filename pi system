@@ -1,0 +1,7 @@
+cd ~
+wget https://files.waveshare.com/upload/5/5b/LCD1602-RGB-Module-demo.zip
+unzip LCD1602-RGB-Module-demo.zip
+cd ~/LCD1602-RGB-Module-demo/Raspberry
+sudo chmod 777 *
+sudo python Choose_Color.py 
+   sudo python Discoloration.py
